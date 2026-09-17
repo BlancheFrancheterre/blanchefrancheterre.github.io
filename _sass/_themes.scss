@@ -118,3 +118,57 @@ article > h2 {
 .profile img {
   box-shadow: none;
 }
+
+// CV page polish. al_folio_cv renders each entry as a plain Bootstrap-style
+// <ul class="list-group">, but since al_folio.compat.bootstrap is disabled,
+// there's no Bootstrap CSS to strip the browser's default bullet points —
+// they were showing up as stray dots next to every date. This tidies that up
+// and gives the cards a bit more visual identity (accent bar, rounder
+// corners, breathing room, a real timeline dot, pill-shaped date badges)
+// without touching any gem-owned markup.
+.cv .card {
+  border-radius: 0.75rem;
+  padding: 1.5rem !important;
+  margin-top: 1.75rem !important;
+  border-left: 4px solid var(--global-theme-color);
+}
+
+.cv .card-title {
+  color: var(--global-theme-color);
+  font-size: 1.6rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.cv .list-group {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cv .list-group-item {
+  position: relative;
+  padding: 0.6rem 0 0.6rem 1.1rem;
+}
+
+.cv .list-group-item:not(:last-child) {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// Replace the (missing) bullet with a small timeline dot in the theme color.
+.cv .list-group-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.15rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background-color: var(--global-theme-color);
+}
+
+.cv .badge {
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem !important;
+  font-size: 0.72rem !important;
+}
