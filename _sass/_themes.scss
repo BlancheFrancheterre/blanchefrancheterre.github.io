@@ -1,0 +1,101 @@
+// Local override of al_folio_core's _themes.scss.
+// Only the light-mode accent color is changed here (purple -> blue); every other
+// variable is reproduced unchanged from the gem's compiled output so nothing else
+// regresses. Dark mode already used a blue accent (#2698ba), so it is untouched.
+// See docs/CUSTOMIZE.md#changing-theme-color.
+
+:root {
+  color-scheme: light;
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: rgba(9, 81, 181, 0.05);
+  --global-text-color: #000000;
+  --global-text-color-light: #828282;
+  --global-theme-color: #0951b5;
+  --global-hover-color: #0951b5;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #1c1c1d;
+  --global-footer-text-color: #e8e8e8;
+  --global-footer-link-color: #ffffff;
+  --global-distill-app-color: #828282;
+  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-card-bg-color: #ffffff;
+  --global-highlight-color: #b71c1c;
+  --global-back-to-top-bg-color: rgba(0, 0, 0, 0.4);
+  --global-back-to-top-text-color: #ffffff;
+  --global-newsletter-bg-color: #ffffff;
+  --global-newsletter-text-color: #000000;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+}
+
+:root #light-toggle-system {
+  display: inline-block;
+}
+:root #light-toggle-dark {
+  display: none;
+}
+:root #light-toggle-light {
+  display: none;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --global-bg-color: #1c1c1d;
+  --global-code-bg-color: #2c3237;
+  --global-text-color: #e8e8e8;
+  --global-text-color-light: #828282;
+  --global-theme-color: #2698ba;
+  --global-hover-color: #2698ba;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #e8e8e8;
+  --global-footer-text-color: #1c1c1d;
+  --global-footer-link-color: #000000;
+  --global-distill-app-color: #e8e8e8;
+  --global-divider-color: #424246;
+  --global-card-bg-color: #212529;
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.5);
+  --global-back-to-top-text-color: #000000;
+  --global-newsletter-bg-color: #e8e8e8;
+  --global-newsletter-text-color: #1c1c1d;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #215d42;
+  --global-tip-block-text: #beffe2;
+  --global-tip-block-title: #e2f5ec;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #6b5900;
+  --global-warning-block-text: #fff2af;
+  --global-warning-block-title: #fff8d8;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #600;
+  --global-danger-block-text: #ffb9b9;
+  --global-danger-block-title: #ffe0e0;
+}
+
+html[data-theme-setting="dark"] #light-toggle-system {
+  display: none;
+}
+html[data-theme-setting="dark"] #light-toggle-dark {
+  display: inline-block;
+}
+html[data-theme-setting="dark"] #light-toggle-light {
+  display: none;
+}
+html[data-theme-setting="light"] #light-toggle-system {
+  display: none;
+}
+html[data-theme-setting="light"] #light-toggle-dark {
+  display: none;
+}
+html[data-theme-setting="light"] #light-toggle-light {
+  display: inline-block;
+}
