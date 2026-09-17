@@ -29,6 +29,29 @@ cv:
         end_date: 2022
 
     Experience:
+      - company: INRAE
+        position: "PhD Candidate — Statistics and Machine Learning"
+        location: France
+        start_date: 2024
+        end_date: present
+        highlights:
+          - "European DISCERN project: statistical methods integrating multi-omics and exposome data to identify molecular, environmental and lifestyle markers of cancer risk, with a focus on joint network inference across conditions and stability selection for penalized multinomial models."
+          - Supervised by Julien Chiquet and Marc Chadeau-Hyam.
+
+      - company: AgroParisTech
+        position: "Chargé de TD et soutien — Apprentissage statistique (M2)"
+        start_date: 2025
+        end_date: 2025
+        highlights:
+          - Teaching assistant and support for M2 students.
+
+      - company: Master's thesis supervision
+        position: "Co-supervisor (with Joel Heller and Ruben Colindres)"
+        start_date: 2026
+        end_date: 2026
+        highlights:
+          - 'Klara Eybers — "Stability knockoffs: a hybrid variable selection method under correlated predictors"'
+
       - company: Moov AI
         position: Data Scientist
         location: Montréal, Canada
@@ -66,6 +89,35 @@ cv:
         publisher: arXiv preprint arXiv:2608.22901
         releaseDate: 2026
         url: https://arxiv.org/abs/2608.22901
+
+      - title: "Interpretable variable selection and differential structure estimation in graphical models"
+        authors:
+          - Blanche Francheterre
+          - Marc Chadeau-Hyam
+          - Julien Chiquet
+        publisher: "StatOmique 2026 — Oral presentation"
+        releaseDate: 2026
+
+      - title: "Empirical simulation study for differential structure estimation of graphical models"
+        authors:
+          - Blanche Francheterre
+          - Marc Chadeau-Hyam
+          - Julien Chiquet
+        publisher: "SMPGD 2026 — Poster"
+        releaseDate: 2026
+
+      - title: "Uncovering The Disease Biology Of HPV Persistence - An Examination Of Proteomics In The UK Biobank"
+        authors:
+          - Blanche Francheterre
+          - Joel Heller
+          - Fernando Guntoro
+          - Ruben Colindres
+          - Maria Kyrgiou
+          - Marc Chadeau-Hyam
+          - Sarah Bowden
+          - Dragana Vuckovic
+        publisher: "ESGO 2025 — Oral presentation"
+        releaseDate: 2025
 
     Skills:
       - name: Statistics & mathematics
