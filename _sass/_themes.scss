@@ -99,3 +99,10 @@ html[data-theme-setting="light"] #light-toggle-dark {
 html[data-theme-setting="light"] #light-toggle-light {
   display: inline-block;
 }
+
+// Not part of the gem's original _themes.scss: al_folio_core's base .card rule
+// (assets/tailwind/app.css) always ships a drop shadow. Scoped to just the CV
+// page's boxes so project cards elsewhere keep their shadow.
+.cv .card {
+  box-shadow: none;
+}
