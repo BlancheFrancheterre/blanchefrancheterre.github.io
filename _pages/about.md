@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at INRAE, working on statistical and machine learning methods for multi-omics data, with a focus on network inference and variable selection.
+I am a PhD student at INRAE, supervised by [Julien Chiquet](https://jchiquet.github.io/) and Marc Chadeau-Hyam. My PhD is part of the European project DISCERN, which studies the incidence of pancreatic, kidney and colon cancers in Europe. I develop statistical methods that integrate multi-omics and exposome data to identify molecular, environmental and lifestyle markers of cancer risk — in particular joint network inference across conditions (see [Monique](https://forge.inrae.fr/blanche.francheterre/monique)) and stability selection for penalized multinomial models.
 
 Before starting my PhD, I completed an MSc in Health Data Analytics and Machine Learning at Imperial College London, where my Master's project investigated proteomics data in cervical cancer using lasso regression, XGBoost, functional pathway analysis and cis-Mendelian randomisation. I previously obtained a Bachelor's degree in Mathematics and Computer Science at McGill University, and worked as a data scientist at Moov AI in Montréal, building forecasting, classification and NLP models.
