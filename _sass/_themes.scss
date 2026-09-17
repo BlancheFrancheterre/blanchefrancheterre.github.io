@@ -106,3 +106,15 @@ html[data-theme-setting="light"] #light-toggle-light {
 .cv .card {
   box-shadow: none;
 }
+
+// The about page's "selected publications" heading is hardcoded lowercase by
+// the gem's about layout (not driven by _pages/publications.md's title), and
+// it's the only <h2> the about layout renders as a direct child of <article>.
+article > h2 {
+  text-transform: capitalize;
+}
+
+// Same base .z-depth-1 shadow as the CV cards above, applied to the profile photo.
+.profile img {
+  box-shadow: none;
+}
