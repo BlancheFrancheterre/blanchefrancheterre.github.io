@@ -172,3 +172,10 @@ article > h2 {
   padding: 0.3rem 0.7rem !important;
   font-size: 0.72rem !important;
 }
+
+// Same base .card shadow as the CV cards, plus the .hoverable hover-state
+// shadow, removed for the project cards too.
+.projects .card,
+.projects .card.hoverable:hover {
+  box-shadow: none;
+}
