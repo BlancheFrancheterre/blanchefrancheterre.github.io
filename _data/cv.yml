@@ -67,47 +67,6 @@ cv:
         releaseDate: 2026
         url: https://arxiv.org/abs/2608.22901
 
-    Conferences:
-      - title: "Interpretable variable selection and differential structure estimation in graphical models"
-        authors:
-          - Blanche Francheterre
-          - Marc Chadeau-Hyam
-          - Julien Chiquet
-        publisher: "StatOmique 2026 — Oral presentation"
-        releaseDate: 2026
-
-      - title: "Empirical simulation study for differential structure estimation of graphical models"
-        authors:
-          - Blanche Francheterre
-          - Marc Chadeau-Hyam
-          - Julien Chiquet
-        publisher: "SMPGD 2026 — Poster"
-        releaseDate: 2026
-
-      - title: "Uncovering The Disease Biology Of HPV Persistence - An Examination Of Proteomics In The UK Biobank"
-        authors:
-          - Blanche Francheterre
-          - Joel Heller
-          - Fernando Guntoro
-          - Ruben Colindres
-          - Maria Kyrgiou
-          - Marc Chadeau-Hyam
-          - Sarah Bowden
-          - Dragana Vuckovic
-        publisher: "ESGO 2025 — Oral presentation"
-        releaseDate: 2025
-
-    Teaching:
-      - company: AgroParisTech
-        position: "Chargé de TD et soutien — Apprentissage statistique (M2)"
-        highlights:
-          - Teaching assistant and support for M2 students.
-
-      - company: Master's thesis supervision
-        position: "Co-supervisor (with Joel Heller and Ruben Colindres)"
-        highlights:
-          - 'Klara Eybers — "Stability knockoffs: a hybrid variable selection method under correlated predictors"'
-
     Skills:
       - name: Statistics & mathematics
         icon: fa-solid fa-square-root-variable
