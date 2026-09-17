@@ -1,10 +1,10 @@
 cv:
   name: Blanche Francheterre
-  label: TODO current position
-  email: ""
-  location: TODO city, country
+  label: PhD student
+  email: blanche.francheterre@inrae.fr
+  location: France
   image: ""
-  summary: TODO one or two sentences about your research (statistics, machine learning, multi-omics, variable selection).
+  summary: Statistics and machine learning for multi-omics data, network inference and variable selection.
 
   social_networks:
     - network: GitHub
@@ -12,34 +12,92 @@ cv:
 
   sections:
     Education:
-      - institution: TODO university
-        location: TODO city, country
-        area: TODO field
-        studyType: TODO degree (e.g. PhD)
-        start_date: 2020
+      - institution: Imperial College London
+        location: London, United Kingdom
+        area: Health Data Analytics and Machine Learning
+        studyType: MSc
+        start_date: 2023
         end_date: 2024
+        highlights:
+          - "Master's project: investigating proteomics data in cervical cancer through lasso regression, XGBoost, functional pathways and cis-Mendelian randomisation."
+
+      - institution: McGill University
+        location: Montréal, Canada
+        area: Mathematics and Computer Science
+        studyType: Bachelor's degree
+        start_date: 2018
+        end_date: 2022
 
     Experience:
-      - company: TODO institution
-        position: TODO position
-        location: TODO city, country
-        start_date: 2024
-        end_date: present
+      - company: Moov AI
+        position: Data Scientist
+        location: Montréal, Canada
+        start_date: 2022-01
+        end_date: 2022-08
         highlights:
-          - TODO what you work on
+          - "Development of machine learning models adapted to clients' specific needs: forecasting, classification and natural language processing (NLP)."
+
+      - company: Moov AI
+        position: Data Analyst Intern
+        location: Montréal, Canada
+        start_date: 2021-05
+        end_date: 2021-12
+
+      - company: Conteur de Poses
+        position: Web Designer Intern
+        location: Paris, France
+        start_date: 2020-07
+        end_date: 2020-08
+        highlights:
+          - Redesign of the website with WordPress.
+
+      - company: Foncia Stark
+        position: Product Owner Intern
+        location: Paris, France
+        start_date: 2019-06
+        end_date: 2019-07
+        highlights:
+          - Agile and Scrum methods, writing user stories and backlog grooming.
+
+    Publications:
+      - title: Data Shared Neighbourhood Selection for multi-condition network inference
+        authors:
+          - Blanche Francheterre et al.
+        publisher: arXiv preprint arXiv:2608.22901
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2608.22901
 
     Skills:
-      - name: Statistics & machine learning
-        icon: fa-solid fa-hashtag
-        keywords: "TODO e.g. variable selection, multi-omics integration"
+      - name: Statistics & mathematics
+        icon: fa-solid fa-square-root-variable
+        keywords: "Statistics, probability & stochastic processes, applied regression, numerical analysis, linear algebra, ODEs"
+
+      - name: Machine learning & bioinformatics
+        icon: fa-solid fa-dna
+        keywords: "Applied machine learning, computational biology, computational and molecular epidemiology"
 
       - name: Programming
         icon: fa-solid fa-code
-        keywords: "TODO e.g. R, Python"
+        keywords: "Python, R, SQL, Java, C, Bash"
+
+    Volunteer:
+      - company: International Bureau for Children's Rights
+        position: Communication team support
+        location: Montréal, Canada
+        start_date: 2022-09
+        end_date: 2022-12
+
+    Interests:
+      - name: University involvement
+        icon: fa-solid fa-users
+        keywords: "Student representative of Master's course, 180DC (student consultant), Hack4Impact (web developer), PhotoFund (photographer)"
 
     Languages:
       - name: French
-        summary: "TODO"
+        summary: "Native"
 
       - name: English
-        summary: "TODO"
+        summary: "Fluent (IELTS C1)"
+
+      - name: Spanish
+        summary: "Intermediate (B2)"

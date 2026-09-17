@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: TODO position, <a href='#'>affiliation</a>
+subtitle: PhD student at <a href='https://www.inrae.fr/en'>INRAE</a>
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   # image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>TODO institution</p>
-    <p>TODO city, country</p>
+    <p>INRAE</p>
+    <p>France</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,4 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-TODO: write your biography here — your current position, research interests (statistics, machine learning, multi-omics data integration, variable selection), and background.
+I am a PhD student at INRAE, working on statistical and machine learning methods for multi-omics data, with a focus on network inference and variable selection.
+
+Before starting my PhD, I completed an MSc in Health Data Analytics and Machine Learning at Imperial College London, where my Master's project investigated proteomics data in cervical cancer using lasso regression, XGBoost, functional pathway analysis and cis-Mendelian randomisation. I previously obtained a Bachelor's degree in Mathematics and Computer Science at McGill University, and worked as a data scientist at Moov AI in Montréal, building forecasting, classification and NLP models.
