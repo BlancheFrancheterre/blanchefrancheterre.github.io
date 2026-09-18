@@ -82,7 +82,7 @@ cv:
         highlights:
           - Agile and Scrum methods, writing user stories and backlog grooming.
 
-    Publications and conferences:
+    Publications:
       - title: Data Shared Neighbourhood Selection for multi-condition network inference
         authors:
           - Blanche Francheterre et al.
@@ -90,34 +90,15 @@ cv:
         releaseDate: 2026
         url: https://arxiv.org/abs/2608.22901
 
-      - title: "Interpretable variable selection and differential structure estimation in graphical models"
-        authors:
-          - Blanche Francheterre
-          - Marc Chadeau-Hyam
-          - Julien Chiquet
-        publisher: "StatOmique 2026 — Oral presentation"
-        releaseDate: 2026
+    Conferences:
+      - label: "StatOmique 2026 — Oral presentation"
+        details: '"Interpretable variable selection and differential structure estimation in graphical models" — Blanche Francheterre, Marc Chadeau-Hyam, Julien Chiquet'
 
-      - title: "Empirical simulation study for differential structure estimation of graphical models"
-        authors:
-          - Blanche Francheterre
-          - Marc Chadeau-Hyam
-          - Julien Chiquet
-        publisher: "SMPGD 2026 — Poster"
-        releaseDate: 2026
+      - label: "SMPGD 2026 — Poster"
+        details: '"Empirical simulation study for differential structure estimation of graphical models" — Blanche Francheterre, Marc Chadeau-Hyam, Julien Chiquet'
 
-      - title: "Uncovering The Disease Biology Of HPV Persistence - An Examination Of Proteomics In The UK Biobank"
-        authors:
-          - Blanche Francheterre
-          - Joel Heller
-          - Fernando Guntoro
-          - Ruben Colindres
-          - Maria Kyrgiou
-          - Marc Chadeau-Hyam
-          - Sarah Bowden
-          - Dragana Vuckovic
-        publisher: "ESGO 2025 — Oral presentation"
-        releaseDate: 2025
+      - label: "ESGO 2025 — Oral presentation"
+        details: '"Uncovering The Disease Biology Of HPV Persistence - An Examination Of Proteomics In The UK Biobank" — Blanche Francheterre, Joel Heller, Fernando Guntoro, Ruben Colindres, Maria Kyrgiou, Marc Chadeau-Hyam, Sarah Bowden, Dragana Vuckovic'
 
     Skills:
       - name: Statistics & mathematics
