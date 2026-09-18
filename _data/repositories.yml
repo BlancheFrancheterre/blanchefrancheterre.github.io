@@ -1,11 +1,7 @@
-# github_users: shows a GitHub profile summary card for each username listed.
-github_users:
-  - BlancheFrancheterre
-
 repo_description_lines_max: 2
 
 # github_repos: shows a card for each repo listed (owner/repo). Only public
 # GitHub repos work here — Monique and the DSNS simulations code live on
-# forge.inrae.fr (GitLab), which this feature doesn't support; link to those
-# from the projects page instead.
+# forge.inrae.fr (GitLab), which this feature doesn't support; they're listed
+# by hand in the "GitLab repositories" section of _pages/repositories.md instead.
 github_repos: []
