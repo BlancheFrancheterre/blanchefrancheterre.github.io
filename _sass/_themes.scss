@@ -207,3 +207,19 @@ article > h2 {
 .projects .card {
   border: 1px solid var(--global-divider-color);
 }
+
+// Banner image at the top of the CV page. This can't be done by putting an
+// <img> in _pages/cv.md's body: al_folio_core's _layouts/cv.liquid never
+// renders page.content, only {% al_folio_cv_render %} — so a background
+// image on .cv itself (the wrapper the render include always emits, before
+// the Contact Information card) is the only way to place it "in" the page.
+.cv::before {
+  content: "";
+  display: block;
+  height: 260px;
+  margin-bottom: 1.75rem;
+  border-radius: 0.75rem;
+  background-image: url("/assets/img/cv_illustration.JPG");
+  background-size: cover;
+  background-position: center;
+}
