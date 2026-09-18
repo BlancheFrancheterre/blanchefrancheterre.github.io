@@ -179,3 +179,31 @@ article > h2 {
 .projects .card.hoverable:hover {
   box-shadow: none;
 }
+
+// One project per row instead of al_folio_core's 2/3-column grid
+// (assets/tailwind/app.css's .row-cols-md-2/-3 set each card to 50%/33% width
+// at the md breakpoint). No media query needed: this selector is more
+// specific than theirs, so it wins at every width, not just >= md.
+.projects .row-cols-md-2 > *,
+.projects .row-cols-md-3 > * {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+// Project cards are now full-width, so a logo set to width:100%
+// (al_folio_core's default for .projects .card img) filled the entire row.
+// Cap it to a reasonable thumbnail size instead, and give cards a border
+// since removing their shadow earlier left nothing to tell consecutive
+// stacked cards apart.
+.projects .card img {
+  max-height: 220px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.projects .card {
+  border: 1px solid var(--global-divider-color);
+}
