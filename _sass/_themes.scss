@@ -232,13 +232,27 @@ article > h2 {
   width: 100%;
 }
 
+// The Monique card has a logo, so it needs more width to put it beside the
+// text instead of above it.
+.other-repos .repo:has(.repo-card-horizontal) {
+  max-width: 420px;
+}
+
+.repo-card-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
 .other-repos .repo-logo {
   display: block;
-  height: 200px !important;
+  flex: 0 0 auto;
+  height: 72px !important;
   width: auto !important;
-  max-width: 100%;
+  max-width: 72px;
   object-fit: contain;
-  margin: 0 0 0.75rem;
+  margin: 0;
 }
 
 .other-repos .card {

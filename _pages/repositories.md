@@ -29,11 +29,13 @@ nav_order: 4
 <div class="repositories other-repos d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   <div class="repo p-2">
     <a href="https://forge.inrae.fr/blanche.francheterre/monique">
-      <div class="card h-100 p-3">
+      <div class="card h-100 p-3 repo-card-horizontal">
         <img src="/assets/img/monique_logo.png" alt="Monique logo" class="repo-logo" />
-        <h5 class="card-title">Monique</h5>
-        <p class="card-text">R package for joint network inference across conditions, including DSNS.</p>
-        <span class="repo-link">forge.inrae.fr/blanche.francheterre/monique</span>
+        <div class="repo-card-text">
+          <h5 class="card-title">Monique</h5>
+          <p class="card-text">R package for joint network inference across conditions, including DSNS.</p>
+          <span class="repo-link">forge.inrae.fr/blanche.francheterre/monique</span>
+        </div>
       </div>
     </a>
   </div>
