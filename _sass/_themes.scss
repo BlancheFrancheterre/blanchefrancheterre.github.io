@@ -223,3 +223,35 @@ article > h2 {
   background-size: cover;
   background-position: center;
 }
+
+// Hand-built card for the "Other repositories" section of _pages/repositories.md
+// (GitLab repos, which the GitHub-only repo.liquid card can't render).
+.other-repos .repo {
+  max-width: 320px;
+  width: 100%;
+}
+
+.other-repos .card {
+  text-align: left;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  box-shadow: none;
+  transition: transform 0.15s ease;
+}
+
+.other-repos a:hover .card {
+  transform: translateY(-2px);
+  border-color: var(--global-theme-color);
+}
+
+.other-repos .card-title {
+  color: var(--global-theme-color);
+}
+
+.other-repos .repo-link {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  word-break: break-all;
+}
