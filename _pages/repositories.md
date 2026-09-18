@@ -46,7 +46,7 @@ nav_order: 4
 </div>
 {% endif %}
 
-## Other repositories
+## GitLab repositories
 
 <!--
   Hosted on forge.inrae.fr (GitLab), so they can't use the GitHub-only cards
@@ -58,6 +58,7 @@ nav_order: 4
   <div class="repo p-2">
     <a href="https://forge.inrae.fr/blanche.francheterre/monique">
       <div class="card h-100 p-3">
+        <img src="/assets/img/monique_logo.png" alt="Monique logo" class="repo-logo" />
         <h5 class="card-title">Monique</h5>
         <p class="card-text">R package for joint network inference across conditions, including DSNS.</p>
         <span class="repo-link">forge.inrae.fr/blanche.francheterre/monique</span>

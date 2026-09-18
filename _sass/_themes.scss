@@ -224,11 +224,19 @@ article > h2 {
   background-position: center;
 }
 
-// Hand-built card for the "Other repositories" section of _pages/repositories.md
-// (GitLab repos, which the GitHub-only repo.liquid card can't render).
+// Hand-built card for the "GitLab repositories" section of
+// _pages/repositories.md (GitLab repos, which the GitHub-only repo.liquid
+// card can't render).
 .other-repos .repo {
   max-width: 320px;
   width: 100%;
+}
+
+.other-repos .repo-logo {
+  display: block;
+  max-height: 64px;
+  width: auto;
+  margin: 0 0 0.75rem;
 }
 
 .other-repos .card {
