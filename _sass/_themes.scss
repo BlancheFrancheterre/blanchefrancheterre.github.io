@@ -234,8 +234,10 @@ article > h2 {
 
 .other-repos .repo-logo {
   display: block;
-  max-height: 24px;
-  width: auto;
+  height: 24px !important;
+  width: auto !important;
+  max-width: 24px;
+  object-fit: contain;
   margin: 0 0 0.75rem;
 }
 
